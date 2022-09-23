@@ -1,0 +1,21 @@
+/* .ant-dropdown-menu-item-active:hover {
+  background: #1890ff;
+  color: white;
+} */
+
+/* selector cua order detail management */
+.pending .ant-select-selector {
+  background-color: #9ca3af !important;
+}
+.shipping .ant-select-selector {
+  background-color: #fcd34d !important;
+}
+.success .ant-select-selector {
+  background-color: #10b981 !important;
+}
+.cancel .ant-select-selector {
+  background-color: #f87171 !important;
+}
+.confirm .ant-select-selector {
+  background-color: #60a5fa !important;
+}

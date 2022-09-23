@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "baseUrl": "./src",
+        "paths": {
+            "@redux/*": [
+                "./src/redux/*"
+            ],
+            "@style/*": [
+                "./src/style/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

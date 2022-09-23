@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: revert;
+  font-weight: bold;
+}
+.ce-block__content > * {
+  text-align: left;
+}
+/* .ce-block__content {
+  max-width: 100% !important;
+}
+.ce-toolbar__content {
+  max-width: calc(100%) !important;
+}
+.cdx-block {
+  max-width: 100% !important;
+} */
+.ce-block__content,
+.ce-toolbar__content {
+  max-width: 100% !important; /* example value, adjust for your own use case */
+}
+
+[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: gray;
+}

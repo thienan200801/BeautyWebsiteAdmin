@@ -1,0 +1,6 @@
+    "@atlaskit/dropdown-menu": "^10.1.8",
+    "-": "^0.0.1",
+    "craco-less": "^1.18.0",
+    "react-contenteditable": "^3.3.6",
+    "formik": "^2.2.9",
+    "yup": "^0.32.9"
